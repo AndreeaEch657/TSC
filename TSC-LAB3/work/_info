@@ -1,0 +1,134 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/nutic/OneDrive/Desktop/TSC-LAB3
+vinstr_register
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 DXx4 work 18 instr_register_pkg 0 22 2Hg^Ek9@eo8hUXNc5o6Z32
+Z3 !s110 1678186468
+!i10b 1
+!s100 dB^k@BKhNZTOZmVmIGTYY2
+I9=3X034aeSgWCLGCgJNNa1
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+!s105 instr_register_sv_unit
+S1
+R0
+w1614777442
+8C:/Users/nutic/OneDrive/Desktop/TSC-LAB3/lab_dut/instr_register.sv
+FC:/Users/nutic/OneDrive/Desktop/TSC-LAB3/lab_dut/instr_register.sv
+L0 9
+Z5 OW;L;10.5c;63
+r1
+!s85 0
+31
+Z6 !s108 1678186468.000000
+!s107 C:/Users/nutic/OneDrive/Desktop/TSC-LAB3/lab_dut/instr_register.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/nutic/OneDrive/Desktop/TSC-LAB3/lab_dut/instr_register.sv|
+!s101 -O0
+!i113 1
+Z7 o-work work -O0
+Z8 tCvgOpt 0
+Xinstr_register_pkg
+R1
+R3
+!i10b 1
+!s100 [7MWzRQElN=K:L=c[d:9C0
+I2Hg^Ek9@eo8hUXNc5o6Z32
+V2Hg^Ek9@eo8hUXNc5o6Z32
+S1
+R0
+w1614777450
+8C:/Users/nutic/OneDrive/Desktop/TSC-LAB3/lab_dut/instr_register_pkg.sv
+FC:/Users/nutic/OneDrive/Desktop/TSC-LAB3/lab_dut/instr_register_pkg.sv
+L0 5
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/nutic/OneDrive/Desktop/TSC-LAB3/lab_dut/instr_register_pkg.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/nutic/OneDrive/Desktop/TSC-LAB3/lab_dut/instr_register_pkg.sv|
+!s101 -O0
+!i113 1
+R7
+R8
+vinstr_register_test
+R1
+R2
+!s110 1678186482
+!i10b 1
+!s100 @N=XOV`;[WWiI<;VY_SjA2
+I?_U=]g3z0dTQQd@YHQld[1
+R4
+!s105 instr_register_test_sv_unit
+S1
+R0
+w1614777408
+8C:/Users/nutic/OneDrive/Desktop/TSC-LAB3/lab01_testbench-interface/instr_register_test.sv
+FC:/Users/nutic/OneDrive/Desktop/TSC-LAB3/lab01_testbench-interface/instr_register_test.sv
+L0 8
+R5
+r1
+!s85 0
+31
+!s108 1678186482.000000
+!s107 C:/Users/nutic/OneDrive/Desktop/TSC-LAB3/lab01_testbench-interface/instr_register_test.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/nutic/OneDrive/Desktop/TSC-LAB3/lab01_testbench-interface/instr_register_test.sv|
+!s101 -O0
+!i113 1
+R7
+R8
+vtest
+!s110 1678184173
+!i10b 1
+!s100 ZObh@Xc8TVS[ETnRI:z9`2
+IcP9ZFVU`IG1c[gT8POZj12
+R4
+R0
+w1614777644
+8C:/Users/nutic/OneDrive/Desktop/TSC-LAB3/test/test.v
+FC:/Users/nutic/OneDrive/Desktop/TSC-LAB3/test/test.v
+L0 7
+R5
+r1
+!s85 0
+31
+!s108 1678184173.000000
+!s107 C:/Users/nutic/OneDrive/Desktop/TSC-LAB3/test/test.v|
+!s90 -reportprogress|300|-work|work|C:/Users/nutic/OneDrive/Desktop/TSC-LAB3/test/test.v|
+!s101 -O0
+!i113 1
+R7
+R8
+vtop
+R1
+R2
+!s110 1678186485
+!i10b 1
+!s100 Pg=M]M2k<1Dk;?TFRVBCm1
+IXU]ODaJN2hA0`[7@LIanM0
+R4
+!s105 top_sv_unit
+S1
+R0
+w1614777416
+8C:/Users/nutic/OneDrive/Desktop/TSC-LAB3/lab01_testbench-interface/top.sv
+FC:/Users/nutic/OneDrive/Desktop/TSC-LAB3/lab01_testbench-interface/top.sv
+L0 5
+R5
+r1
+!s85 0
+31
+!s108 1678186484.000000
+!s107 C:/Users/nutic/OneDrive/Desktop/TSC-LAB3/lab01_testbench-interface/top.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/nutic/OneDrive/Desktop/TSC-LAB3/lab01_testbench-interface/top.sv|
+!s101 -O0
+!i113 1
+R7
+R8
