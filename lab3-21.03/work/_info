@@ -1,0 +1,107 @@
+m255
+K4
+z0
+cModel Technology
+dC:\Users\giurg\OneDrive\Desktop\tsc_lab3\lab3
+vinstr_register
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 DXx4 work 18 instr_register_pkg 0 22 W1:60Wi2dnNYf5_9nSC1]0
+!s110 1678628207
+!i10b 1
+!s100 oY=j8D82jIGd9o9;]Nl2<1
+IFg^jNE`93NTgIO`<G0Bfk2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 instr_register_sv_unit
+S1
+Z3 dC:/Users/giurg/OneDrive/Desktop/tsc_lab3/lab3
+w1678628176
+8C:/Users/giurg/OneDrive/Desktop/tsc_lab3/lab3/lab_dut/instr_register.sv
+FC:/Users/giurg/OneDrive/Desktop/tsc_lab3/lab3/lab_dut/instr_register.sv
+L0 1
+Z4 OW;L;10.5c;63
+r1
+!s85 0
+31
+!s108 1678628207.000000
+!s107 C:/Users/giurg/OneDrive/Desktop/tsc_lab3/lab3/lab_dut/instr_register.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/giurg/OneDrive/Desktop/tsc_lab3/lab3/lab_dut/instr_register.sv|
+!s101 -O0
+!i113 1
+Z5 o-work work -O0
+Z6 tCvgOpt 0
+Xinstr_register_pkg
+R0
+!s110 1678627867
+!i10b 1
+!s100 ckXJ<3^BQ?m3a4g:kA2S]0
+IW1:60Wi2dnNYf5_9nSC1]0
+VW1:60Wi2dnNYf5_9nSC1]0
+S1
+R3
+w1678627518
+8C:/Users/giurg/OneDrive/Desktop/tsc_lab3/lab3/lab_dut/instr_register_pkg.sv
+FC:/Users/giurg/OneDrive/Desktop/tsc_lab3/lab3/lab_dut/instr_register_pkg.sv
+L0 5
+R4
+r1
+!s85 0
+31
+!s108 1678627867.000000
+!s107 C:/Users/giurg/OneDrive/Desktop/tsc_lab3/lab3/lab_dut/instr_register_pkg.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/giurg/OneDrive/Desktop/tsc_lab3/lab3/lab_dut/instr_register_pkg.sv|
+!s101 -O0
+!i113 1
+R5
+R6
+vinstr_register_test
+R0
+R1
+!s110 1678628319
+!i10b 1
+!s100 PCz`@W[jVH4VElX^QQBAi2
+I<GMooiG]H6EcKPDRCmYn@2
+R2
+!s105 instr_register_test_sv_unit
+S1
+R3
+w1678628306
+8C:/Users/giurg/OneDrive/Desktop/tsc_lab3/lab3/lab01_testbench-interface/instr_register_test.sv
+FC:/Users/giurg/OneDrive/Desktop/tsc_lab3/lab3/lab01_testbench-interface/instr_register_test.sv
+L0 8
+R4
+r1
+!s85 0
+31
+!s108 1678628319.000000
+!s107 C:/Users/giurg/OneDrive/Desktop/tsc_lab3/lab3/lab01_testbench-interface/instr_register_test.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/giurg/OneDrive/Desktop/tsc_lab3/lab3/lab01_testbench-interface/instr_register_test.sv|
+!s101 -O0
+!i113 1
+R5
+R6
+vtop
+R0
+R1
+!s110 1678627873
+!i10b 1
+!s100 @Sc6>OOiOMBYTB5F?JIc?0
+I6YU7:fX28LhXfA?YfbOeb0
+R2
+!s105 top_sv_unit
+S1
+R3
+w1678090722
+8C:/Users/giurg/OneDrive/Desktop/tsc_lab3/lab3/lab01_testbench-interface/top.sv
+FC:/Users/giurg/OneDrive/Desktop/tsc_lab3/lab3/lab01_testbench-interface/top.sv
+L0 5
+R4
+r1
+!s85 0
+31
+!s108 1678627873.000000
+!s107 C:/Users/giurg/OneDrive/Desktop/tsc_lab3/lab3/lab01_testbench-interface/top.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/giurg/OneDrive/Desktop/tsc_lab3/lab3/lab01_testbench-interface/top.sv|
+!s101 -O0
+!i113 1
+R5
+R6
