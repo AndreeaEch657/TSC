@@ -22,6 +22,7 @@ if {$compile_on || [batch_mode] == 0} {
 
 # Load project
   eval vsim -novopt -quiet -nocoverage +notimingchecks +nowarnTSCALE -sva top
+  eval vsim -novopt -quiet -nocoverage +notimingchecks +nowarnTSCALE -sva -G/top/test/NUMBER_OF_TRANSACTIONS=$2 -G/top/test/NUMBER_OF_TRANSACTIONS=$3 -G/top/test/NUMBER_OF_TRANSACTIONS=$4
 # eval vsim -novopt -quiet -coverage +code=bcesft +notimingchecks +nowarnTSCALE -sva top
 
 # Run log/wave commands

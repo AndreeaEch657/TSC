@@ -1,0 +1,1 @@
+call run_test.bat 20 100 60 c
