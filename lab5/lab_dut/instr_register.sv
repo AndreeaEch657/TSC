@@ -13,7 +13,7 @@ import instr_register_pkg::*;
   
 
   timeunit 1ns/1ns;
-
+ 
   instruction_t iw_reg[0:31];
   operand_res rezultat;
 
@@ -21,7 +21,7 @@ import instr_register_pkg::*;
   always @(posedge clk, negedge reset_n) 
     if (!reset_n) begin
       foreach (iw_reg[i]) 
-        iw_reg[i] = '{opc:ZERO, op_a:0, op_b:0, rezultat:0};
+        iw_reg[i] = '{opc:ZERO, default:0};
     end
     else if (load_en) begin
         case (opcode)

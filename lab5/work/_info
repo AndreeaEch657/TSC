@@ -5,16 +5,16 @@ cModel Technology
 dC:\Users\giurg\OneDrive\Desktop\tsc_lab3\lab3
 vinstr_register
 Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z1 DXx4 work 18 instr_register_pkg 0 22 7U39LcR:3OIee[NB36N_V2
-!s110 1680711284
+Z1 DXx4 work 18 instr_register_pkg 0 22 S2;Of92A=7Ta;laho[;?O2
+!s110 1682353249
 !i10b 1
-!s100 jgZ=`JIAGWcOME9@`2c3a0
-IU`^WlMkRmRKgXUnoGH@EY1
+!s100 WS?HGJH_GCaQNbA43d@j_0
+I8g9CDI[cP7[BPmMR[h4Hh1
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 !s105 instr_register_sv_unit
 S1
 Z3 dC:/Users/HP/Desktop/lab5
-w1679997530
+w1682352741
 8C:/Users/HP/Desktop/lab5/lab_dut/instr_register.sv
 FC:/Users/HP/Desktop/lab5/lab_dut/instr_register.sv
 L0 1
@@ -22,7 +22,7 @@ Z4 OW;L;10.5c;63
 r1
 !s85 0
 31
-!s108 1680711284.000000
+!s108 1682353249.000000
 !s107 C:/Users/HP/Desktop/lab5/lab_dut/instr_register.sv|
 !s90 -reportprogress|300|-work|work|C:/Users/HP/Desktop/lab5/lab_dut/instr_register.sv|
 !s101 -O0
@@ -31,14 +31,14 @@ Z5 o-work work -O0
 Z6 tCvgOpt 0
 Xinstr_register_pkg
 R0
-!s110 1680711283
+!s110 1682353248
 !i10b 1
-!s100 TJS:nRFkPnd<zLNd[U<nU2
-I7U39LcR:3OIee[NB36N_V2
-V7U39LcR:3OIee[NB36N_V2
+!s100 i5V10ZL2f>W:`SH]10gmC3
+IS2;Of92A=7Ta;laho[;?O2
+VS2;Of92A=7Ta;laho[;?O2
 S1
 R3
-w1679395842
+w1682353131
 8C:/Users/HP/Desktop/lab5/lab_dut/instr_register_pkg.sv
 FC:/Users/HP/Desktop/lab5/lab_dut/instr_register_pkg.sv
 L0 5
@@ -46,7 +46,7 @@ R4
 r1
 !s85 0
 31
-!s108 1680711283.000000
+!s108 1682353248.000000
 !s107 C:/Users/HP/Desktop/lab5/lab_dut/instr_register_pkg.sv|
 !s90 -reportprogress|300|-work|work|C:/Users/HP/Desktop/lab5/lab_dut/instr_register_pkg.sv|
 !s101 -O0
@@ -56,15 +56,15 @@ R6
 vinstr_register_test
 R0
 R1
-!s110 1680711288
+!s110 1682353403
 !i10b 1
-!s100 OT]^PQRaXU_RVE0^XD<DI2
-IhS;L:0f>:EO4ib^n?2i7U1
+!s100 iUzB3fFiYI6h:zU2k0jZi0
+IgPZFR9LSJ7TEaeVIo<NY]2
 R2
 !s105 instr_register_test_sv_unit
 S1
 R3
-w1680708632
+w1682353400
 8C:/Users/HP/Desktop/lab5/lab01_testbench-interface/instr_register_test.sv
 FC:/Users/HP/Desktop/lab5/lab01_testbench-interface/instr_register_test.sv
 L0 8
@@ -72,7 +72,7 @@ R4
 r1
 !s85 0
 31
-!s108 1680711288.000000
+!s108 1682353403.000000
 !s107 C:/Users/HP/Desktop/lab5/lab01_testbench-interface/instr_register_test.sv|
 !s90 -reportprogress|300|-work|work|C:/Users/HP/Desktop/lab5/lab01_testbench-interface/instr_register_test.sv|
 !s101 -O0
@@ -82,10 +82,10 @@ R6
 vtop
 R0
 R1
-!s110 1680711289
+!s110 1682353406
 !i10b 1
 !s100 @Sc6>OOiOMBYTB5F?JIc?0
-ICNMoWFMU@9Pc5aPdMSj^j2
+IF5oC4<BA<di<jVKe=GjoO3
 R2
 !s105 top_sv_unit
 S1
@@ -98,7 +98,7 @@ R4
 r1
 !s85 0
 31
-!s108 1680711289.000000
+!s108 1682353406.000000
 !s107 C:/Users/HP/Desktop/lab5/lab01_testbench-interface/top.sv|
 !s90 -reportprogress|300|-work|work|C:/Users/HP/Desktop/lab5/lab01_testbench-interface/top.sv|
 !s101 -O0

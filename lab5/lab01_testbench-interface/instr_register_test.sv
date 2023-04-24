@@ -21,8 +21,30 @@ module instr_register_test
   timeunit 1ns/1ns;
 
   int seed = 555; //Procedura prin care se initializeaza generarea nr random pt random stability si reproducere
+  int number_of_errors = 0;
+  instruction_t actual [0:31];
+  operand_res expected [0:31];
   parameter RANDOM_CASE = 0;
   parameter NUMBER_OF_TRANSACTIONS = 20;
+
+    /* //covergroup declaration
+  covergroup coverage_calc;
+  cov_p1: coverpoint tbintf.operand_a
+                              {
+                                bins op_a_max = {15};
+                                bins op_a_zero = {0};
+                                bins op_a_min = {-15};
+                              }
+  cov_p2: coverpoint tbintf.operand_b 
+                             {
+                                bins op_b_max = {15};
+                                bins op_b_zero = {0};
+                                bins op_b_min = {-15};
+                              }
+  cov_p3: coverpoint tbintf.opcode; 
+  endgroup
+  //cg variable declaration
+  coverage_calc  cov_calc;*/
 
   initial begin
     $display("\n\n***********************************************************");
@@ -57,6 +79,9 @@ module instr_register_test
       // scoreboard to determine which addresses were written and
       // the expected values to be read back
       //@(posedge clk) read_pointer = i;
+
+
+  // cov_calc.sample();
       
        if (RANDOM_CASE == 0) begin
         @(posedge clk) read_pointer = i;
@@ -70,12 +95,19 @@ module instr_register_test
       else if (RANDOM_CASE == 3) begin
         @(posedge clk) read_pointer = $unsigned($urandom)%32;
       end
+      actual[read_pointer].rezultat = (instruction_word.rezultat);
       @(negedge clk) print_results;
 
     
     end
 
     @(posedge clk) ;
+
+    check_results();
+     $display("\nErrors : %d", number_of_errors);
+    if(number_of_errors)   $display("\n TEST FAILLED");
+    else    $display("\n TEST PASSED");
+
     $display("\n***********************************************************");
     $display(  "***  THIS IS NOT A SELF-CHECKING TESTBENCH (YET).  YOU  ***");
     $display(  "***  NEED TO VISUALLY VERIFY THAT THE OUTPUT VALUES     ***");
@@ -110,7 +142,8 @@ module instr_register_test
         write_pointer <= $unsigned($urandom)%32;
       end  
 
-   
+  actual[write_pointer] <= '{opcode, operand_a, operand_b, 'b0};
+
   endfunction: randomize_transaction
 
   function void print_transaction;
@@ -127,5 +160,26 @@ module instr_register_test
     $display("  operand_b = %0d\n", instruction_word.op_b);
     $display("  rezultat = %0d\n", instruction_word.rezultat);
   endfunction: print_results
+
+  function void check_results();
+  foreach(actual[i])begin
+     case(actual[i].opc) 
+        ZERO  : expected[i] = 'b0;
+        PASSA : expected[i] = actual[i].op_a;
+        PASSB : expected[i] = actual[i].op_b;
+        ADD   : expected[i] = actual[i].op_a+actual[i].op_b;
+        SUB   : expected[i] = actual[i].op_a-actual[i].op_b;
+        MULT  : expected[i] = actual[i].op_a*actual[i].op_b;
+        DIV   : expected[i] = actual[i].op_a/actual[i].op_b;
+        MOD   : expected[i] = actual[i].op_a%actual[i].op_b;
+      endcase
+    if(expected[i] != actual[i].rezultat) begin
+      number_of_errors++;
+       $error("\n i = %0d: opcode = %0d (%s)  operand_a = %0d operand_b = %0d \n expected result = %0d  actual result = %0d \n",i , actual[i].opc, actual[i].opc.name, actual[i].op_a, actual[i].op_b, expected[i],actual[i].rezultat);
+    end
+   end
+  endfunction: check_results
+
+
 
 endmodule: instr_register_test

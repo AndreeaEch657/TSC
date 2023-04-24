@@ -1,0 +1,86 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/giurg/OneDrive/Desktop/tsc_lab3/lab3/lab_dut
+vinstr_register
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 DXx4 work 18 instr_register_pkg 0 22 ?Sz<O6f?Y8n>QY2aP;[QN1
+!s110 1678623872
+!i10b 1
+!s100 e:]^WK@W7gXG5ac8<DZ213
+ImYBlP8KoZcHW;coLML8mh0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 instr_register_sv_unit
+S1
+R0
+w1678623861
+8C:/Users/giurg/OneDrive/Desktop/tsc_lab3/lab3/lab_dut/instr_register.sv
+FC:/Users/giurg/OneDrive/Desktop/tsc_lab3/lab3/lab_dut/instr_register.sv
+L0 1
+Z4 OW;L;10.5c;63
+r1
+!s85 0
+31
+!s108 1678623872.000000
+!s107 C:/Users/giurg/OneDrive/Desktop/tsc_lab3/lab3/lab_dut/instr_register.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/giurg/OneDrive/Desktop/tsc_lab3/lab3/lab_dut/instr_register.sv|
+!s101 -O0
+!i113 1
+Z5 o-work work -O0
+Z6 tCvgOpt 0
+Xinstr_register_pkg
+R1
+!s110 1678623059
+!i10b 1
+!s100 l=ehIH_gnCUm5IzPBVZMR2
+I?Sz<O6f?Y8n>QY2aP;[QN1
+V?Sz<O6f?Y8n>QY2aP;[QN1
+S1
+R0
+w1678526569
+8C:/Users/giurg/OneDrive/Desktop/tsc_lab3/lab3/lab_dut/instr_register_pkg.sv
+FC:/Users/giurg/OneDrive/Desktop/tsc_lab3/lab3/lab_dut/instr_register_pkg.sv
+L0 5
+R4
+r1
+!s85 0
+31
+!s108 1678623059.000000
+!s107 C:/Users/giurg/OneDrive/Desktop/tsc_lab3/lab3/lab_dut/instr_register_pkg.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/giurg/OneDrive/Desktop/tsc_lab3/lab3/lab_dut/instr_register_pkg.sv|
+!s101 -O0
+!i113 1
+R5
+R6
+vinstr_register_tb
+R1
+R2
+!s110 1678623874
+!i10b 1
+!s100 5KH1QKc^kWLWM`PIn905I0
+IjfOLZl`khOhc7HMIWAAWB1
+R3
+!s105 instr_register_tb_sv_unit
+S1
+R0
+w1678623624
+8C:/Users/giurg/OneDrive/Desktop/tsc_lab3/lab3/lab_dut/instr_register_tb.sv
+FC:/Users/giurg/OneDrive/Desktop/tsc_lab3/lab3/lab_dut/instr_register_tb.sv
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1678623874.000000
+!s107 C:/Users/giurg/OneDrive/Desktop/tsc_lab3/lab3/lab_dut/instr_register_tb.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/giurg/OneDrive/Desktop/tsc_lab3/lab3/lab_dut/instr_register_tb.sv|
+!s101 -O0
+!i113 1
+R5
+R6

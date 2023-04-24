@@ -17,8 +17,7 @@ package instr_register_pkg;
   } opcode_t;
 
   typedef logic signed [31:0] operand_t;
-   typedef logic signed [63:0] operand_res;
-  
+  typedef logic signed [63:0] operand_res;
   typedef logic [4:0] address_t;
   
   typedef struct {
